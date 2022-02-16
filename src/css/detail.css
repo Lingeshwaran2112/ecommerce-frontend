@@ -1,0 +1,285 @@
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navbar */
+.navbars{
+    background-color: #beffff;
+}
+
+.ulItems{
+    position: absolute;
+    right: 0;
+    margin-right: 25px;
+}
+
+.ulLi{
+    margin-right: 20px;
+    margin-top: 4px;
+}
+
+.ulLis{
+    margin-right: 20px;
+}
+
+.uliBtn{
+    border: none;
+    cursor: pointer;
+    background-color: #beffff;
+}
+
+.uliBtn:focus{
+    outline: none;
+}
+
+.logBtnToggler{
+    border: none;
+    background-color: #beffff;
+    color: black;
+}
+
+.logBtnToggler:hover{
+    background-color: #54d470;
+    color: black;
+    
+}
+
+.dropMenu1{
+    margin-top: 10px;
+}
+
+.dropMenubtn:focus{
+    outline: none;
+    background-color: #00D7E3;
+}
+
+.dropMenubtn:hover{
+    background-color: #00D7E3;
+    color: rgb(0, 0, 0);
+}
+
+.cartIcons,.heartsIcons{
+    margin-right: 8px;
+}
+
+.heartsIcons{
+    color: #f80c0c;
+}
+
+.shopDiv{
+    color: black;
+}
+.shopDiv:hover{
+   color: #00D7E3;
+}
+
+.categoriesDiv{
+    display: flex;
+   
+}
+
+.categorie{
+    position: relative;
+}
+.caticon{
+    margin-top: 5px;
+}
+
+.categoriesButton{
+    display: flex;
+    border: none;
+    padding: 0;
+    background-color:#beffff;
+    cursor: pointer;
+}
+
+.categoriesButton:focus{
+    outline: none;
+    
+}
+
+.mensWearDiv{
+    position: absolute;
+    top: 43px;
+    padding: 0px 10px;
+    z-index: 1;
+    background-color: white;
+}
+
+.listsWear{
+    padding: 0px;
+}
+
+.d1{
+    margin-bottom: 12px;
+    margin-left: 11px;
+    cursor: pointer;
+    color: black;
+}
+
+.d1:hover{
+    color:#48e300 ;
+}
+
+/*  */
+
+.dt2{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(105, 105, 105);
+    margin-bottom: 18px;
+    margin-top: 18px;
+}
+
+.prdssName{
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 8px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(7, 7, 7);
+}
+
+.detailImg{
+    width: 100%;
+    height: 100%;
+}
+
+.itemdetails{
+    padding: 10px 0 ;
+    width: 473px;
+    height: 593px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.productPrice{
+    margin-top: 16px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(0, 78, 23);
+}
+
+.sizes{
+    margin-top: 16px;
+    font-weight: bold;
+    color: rgb(65, 64, 64);
+    /* font-family: 'Source Sans Pro', sans-serif; */
+}
+
+.sizeDiv{
+    display: flex;
+}
+
+.description{
+    width:600px;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-weight: 14px;
+}
+
+.sizeBtn{
+    width: 53px;
+    height: 53px;
+    padding: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+    /* margin: 0px 15px; */
+    border: 1px solid #006ae3;
+    background-color: rgb(12, 11, 11);  
+}
+
+.sizeBtn:focus { 
+    outline: none ;
+    background-color: #000408; 
+}
+
+.quantityDiv{
+    margin-top: 20px;
+}
+
+input[type=number]{
+    width: 80px;
+    margin-left: 10px;
+}
+
+.ctg , .qnty {
+    margin-bottom: 3px;
+    /* font-family:  'Source Sans Pro', sans-serif; */
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(88, 88, 88);
+}
+
+.qnty{
+    margin-bottom: 8px;
+}
+
+.btnCart{
+    padding-top: 10px;
+}
+
+.cartBtn{
+    margin-right: 15px;
+    padding: 10px 15px;
+    border: none;
+}
+
+.addBtn{
+    background-color: #0dd176; 
+    border-radius: 0.7rem; 
+    color: white;
+}
+
+.addBtn:hover{
+    background-color: #3bd3cb ;
+    cursor: pointer;
+}
+
+.addBtn:focus{
+    outline: none;
+}
+
+.wishBtn{
+    background-color: #eb6d32;
+    color: white;
+    border-radius: 0.7rem; 
+}
+
+.wishBtn:focus{
+    outline: none;
+}
+
+.wishBtn:hover{
+    background-color: #e7e441;
+    cursor: pointer;
+}
+
+.dd{
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    color: rgb(145, 1, 202);
+}
+.returnPolicy{
+    display: flex;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    width: 430px;
+    border-radius: 0.8rem;
+    
+}
+
+.rtn{
+    padding-top: 14px;
+    padding-left: 25px;
+    margin-bottom: 0; 
+}
+
+.info{
+    line-height: 1.6;
+    color:rgb(252, 64, 89);
+    margin-bottom: 5px;
+}
